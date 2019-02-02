@@ -1,0 +1,456 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-02-03 02:49+0900\n"
+"PO-Revision-Date: 2019-02-03 03:52+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/tinymce-plugin-dialog.php:15
+msgid "Choose a Series from the list below to embed in your post:"
+msgstr "埋め込む連載を選んでください:"
+
+#: inc/tinymce-plugin-dialog.php:20
+msgid "Name:"
+msgstr "連載名:"
+
+#: inc/tinymce-plugin-dialog.php:21
+msgid "Count:"
+msgstr "公開済み記事数:"
+
+#: inc/tinymce-plugin-dialog.php:42 series.php:404 series.php:482
+msgid "Title:"
+msgstr "タイトル:"
+
+#: inc/tinymce-plugin-dialog.php:49
+msgid "Limit show:"
+msgstr "表示記事数上限:"
+
+#: inc/tinymce-plugin-dialog.php:56
+msgid "Future show:"
+msgstr "掲載予定記事を表示するか:"
+
+#: inc/tinymce-plugin-dialog.php:60 series-admin.php:436
+msgid "on"
+msgstr "オン"
+
+#: inc/tinymce-plugin-dialog.php:69
+msgid "Insert"
+msgstr "埋め込む"
+
+#: inc/tinymce-plugin-dialog.php:72
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: series-admin.php:83
+msgid "Insert Series"
+msgstr "連載を埋め込む"
+
+#: series-admin.php:111
+msgid "View all series"
+msgstr "すべての連載を見る"
+
+#: series-admin.php:141 series.php:116 series.php:117 series.php:123
+msgid "Series"
+msgstr "連載"
+
+#: series-admin.php:155
+msgid ", "
+msgstr ", "
+
+#: series-admin.php:185
+msgid "Settings"
+msgstr "設定"
+
+#: series-admin.php:225 series-admin.php:396
+msgid "Post Series Settings"
+msgstr "Post Series 設定"
+
+#: series-admin.php:225 series.php:310
+msgid "Post Series"
+msgstr "Post Series"
+
+#: series-admin.php:242
+msgid "Title Format"
+msgstr "タイトルのフォーマット"
+
+#: series-admin.php:243
+msgid ""
+"\"Title Format\" means you can customly define the format and content to "
+"display as series title.%current will be replaced by the current posts "
+"number in the serie, %count will be replaced by series total post number, "
+"%link will be replaced by displaying a url link. These three words started "
+"with \"%\" are special template tokens and rest words are free to use."
+msgstr ""
+"「タイトルのフォーマット」で連載のタイトルの表記をカスタマイズできま"
+"す。%current はその記事が連載中何記事めにあたるかの数字に、%count は連載の全"
+"記事数に、%link は連載ページのリンクに置換されます。この「％」で始まる3単語は"
+"特別なテンプレートトークンで、その他の言葉は自由に使っていただいて構いませ"
+"ん。"
+
+#: series-admin.php:249
+msgid "CSS Class Prefix"
+msgstr "CSS クラスプレフィクス"
+
+#: series-admin.php:250
+msgid "set css class prefix for series element"
+msgstr "連載の要素に css クラスプレフィクスを使用する"
+
+#: series-admin.php:256
+msgid "Series Wrap Element"
+msgstr "連載を囲む要素"
+
+#: series-admin.php:257
+msgid "set series element wrapper, allowed tags: div, nav, section"
+msgstr "連載を囲む要素をセットする（許可されたタグ: div, nav, section）"
+
+#: series-admin.php:263
+msgid "Title Wrap Element"
+msgstr "タイトルを囲む要素"
+
+#: series-admin.php:264
+msgid "set title element wrapper, allowed tags: h1-h6, p, span, div, strong"
+msgstr ""
+"タイトルを囲む要素をセットする（許可されたタグ: h1-h6, p, span, div, strong）"
+
+#: series-admin.php:270
+msgid "Show Unpublished"
+msgstr "まだ公開されていない記事も表示する"
+
+#: series-admin.php:275
+msgid "Auto Show Series On Post"
+msgstr "記事に自動的に連載を表示する"
+
+#: series-admin.php:276
+msgid ""
+"The option \"Between excerpt and content\" doesn't work if you use automatic "
+"excerpts. It works on with manual excerpt or with &lt!--more--&gt; tag. See "
+"the <a href=\"http://codex.wordpress.org/Excerpt\" title=\"Excerpt in "
+"WordPress Codex\">WordPress documentation</a> to get more details on excerpt."
+msgstr ""
+"自動抜粋を使用している場合、「抜粋とコンテンツの間」オプションは使えません。"
+"手動抜粋、または &lt!--more--&gt; タグがある場合に使用できます。詳しくは <a "
+"href=\"http://codex.wordpress.org/Excerpt\" title=\"Excerpt in WordPress "
+"Codex\">ワードプレスの公式ドキュメント</a> を参照してください。"
+
+#: series-admin.php:279
+msgid "Not activated"
+msgstr "使用しない"
+
+#: series-admin.php:279
+msgid "At the end"
+msgstr "記事の最後"
+
+#: series-admin.php:280
+msgid "At the begining"
+msgstr "記事の最初"
+
+#: series-admin.php:280
+msgid "Between excerpt and content"
+msgstr "抜粋と記事の間"
+
+#: series-admin.php:285
+msgid "Use Custom CSS Style Sheet"
+msgstr "カスタムCSSスタイルシートを使用する"
+
+#: series-admin.php:290
+msgid "Show Thumbnail"
+msgstr "サムネイルを表示する"
+
+#: series-admin.php:295
+msgid "Show Excerpt"
+msgstr "抜粋を表示する"
+
+#: series-admin.php:300
+msgid "Show Navigation"
+msgstr "ナビゲーションを表示する"
+
+#: series-admin.php:305
+msgid "Auto Show Series In Loop"
+msgstr "リスト表示時に連載を自動表示する"
+
+#: series-admin.php:310
+msgid "Hide all items of the series in post view"
+msgstr "記事内の連載の記事一覧を隠す"
+
+#: series-admin.php:316
+msgid "Configure Post Series"
+msgstr "Post Series を設定する"
+
+#: series-admin.php:398 series-edition.php:86
+msgid ""
+"If finding any problem with this plugin please check my <a target=\"_blank\" "
+"href=\"http://www.chaozh.com/simple-post-series-plugin-officially-publish/"
+"\">Online QA</a> or <a href=\"mailto:chao@whu.edu.cn\">Contact Me</a>"
+msgstr ""
+"このプラグインに何か問題がありましたら、私の <a target=\"_blank\" href="
+"\"http://www.chaozh.com/simple-post-series-plugin-officially-publish/\">オン"
+"ラインQA</a>をチェックするか、 <a href=\"mailto:chao@whu.edu.cn\">私まで連絡"
+"をください。</a>"
+
+#: series-admin.php:399 series-edition.php:87 series-edition.php:88
+msgid "You can add QQ group to ask any questions freely online"
+msgstr "オンラインで質問するには、QQグループを追加してください"
+
+#: series-admin.php:412
+msgid "Save Changes"
+msgstr "変更を保存する"
+
+#: series-admin.php:413
+msgid "Reset Default"
+msgstr "リセットしてデフォルトに戻す"
+
+#: series-admin.php:418
+msgid "Add Series to your Post or Page"
+msgstr "投稿や固定ページに連載を埋め込む"
+
+#: series-admin.php:419
+#, php-format
+msgid ""
+"Use %1$s to add it to your Post or Page content, or use the Post Series "
+"Widget."
+msgstr ""
+"%1$s を使用して、投稿や固定ページに連載を埋め込むことができます。または、"
+"Post Series ウィジェットを使うこともできます。"
+
+#: series-admin.php:426
+msgid "Set up your series using the options below."
+msgstr "以下のオプションを使って連載を設定してください。"
+
+#: series-display.php:20
+msgid "Previous Post"
+msgstr "前の投稿"
+
+#: series-display.php:20
+msgid "Next Post"
+msgstr "次の投稿"
+
+#: series-display.php:138
+msgid "Future post"
+msgstr "公開予定"
+
+#: series-edition.php:25
+msgid "Show all dates"
+msgstr "日付を表示する"
+
+#: series-edition.php:43 series-edition.php:78
+msgid "Series Bulk Edit"
+msgstr "連載をまとめて編集する"
+
+#: series-edition.php:63
+msgid "Available posts"
+msgstr "使用可能な投稿"
+
+#: series-edition.php:74 series.php:121
+msgid "Add New Series"
+msgstr "新規連載の追加"
+
+#: series-edition.php:81
+msgid "Processing, please wait ..."
+msgstr "処理中、少々お待ち下さい。"
+
+#: series-edition.php:137
+msgid "All Posts"
+msgstr "すべての投稿"
+
+#: series-edition.php:138
+msgid "Scheduled"
+msgstr "予定投稿"
+
+#: series-edition.php:139
+msgid "Published"
+msgstr "公開済み"
+
+#: series-edition.php:140
+msgid "Draft"
+msgstr "下書き"
+
+#: series-edition.php:141
+msgid "Pending"
+msgstr "保留中"
+
+#: series-edition.php:203
+msgid "View all categories"
+msgstr "すべてのカテゴリを見る"
+
+#: series-edition.php:224
+msgid ""
+"Drag posts from here to a serie on the right to include them in a serie. "
+"Drag posts back here remove them from series."
+msgstr ""
+"連載に追加したい投稿を、ここから右の連載へドラッグしてください。連載から投稿"
+"を削除したい場合は、ここへドラッグしてください。"
+
+#: series-edition.php:268
+msgid "The name is how it appears on your site."
+msgstr "その名称はすでに使われているようです。"
+
+#: series-edition.php:273
+msgid ""
+"The &#8220;slug&#8221; is the URL-friendly version of the name. It is "
+"usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr ""
+"&#8220;スラッグ&#8221; はURLに使えるバージョンの名称とでも言うべきものです。"
+"英小文字、数字、ハイフンが使えます。"
+
+#: series-edition.php:277
+msgid "None"
+msgstr "なし"
+
+#: series-edition.php:282
+msgid ""
+"The description is not prominent by default; however, some themes may show "
+"it."
+msgstr ""
+"この説明はデフォルトではあまり重要な意味を持ちませんが、これを表示するテーマ"
+"も中にはあります。"
+
+#: series-edition.php:318
+msgid "Delete"
+msgstr "削除する"
+
+#: series-edition.php:350
+msgid "Serie successfully updated"
+msgstr "連載が更新されました"
+
+#: series-edition.php:353 series-edition.php:418 series-edition.php:442
+msgid "Error, security check failed"
+msgstr "エラー、セキュリティチェックに失敗しました"
+
+#: series-edition.php:358 series-edition.php:422 series-edition.php:446
+msgid "Error, access denied"
+msgstr "エラー、アクセスできませんでした"
+
+#: series-edition.php:370
+msgid "Error, Serie not identified"
+msgstr "エラー、連載が特定できませんでした"
+
+#: series-edition.php:426
+msgid "New serie successfully added"
+msgstr "新規連載が追加されました"
+
+#: series-edition.php:429
+msgid "Error, add serie fail"
+msgstr "エラー、連載追加が失敗しました"
+
+#: series-edition.php:451
+msgid "Serie successfully deleted"
+msgstr "連載が削除されました"
+
+#: series-edition.php:454
+msgid "Error, delete serie fail"
+msgstr "エラー、連載の削除が失敗しました"
+
+#: series.php:92
+msgid "This entry is part %current of %count in the series: %link"
+msgstr "この記事は連載 %link （全%countパート）のパート%currentです。"
+
+#: series.php:118
+msgid "All Series"
+msgstr "すべての連載を見る"
+
+#: series.php:119
+msgid "Edit Series"
+msgstr "連載を編集する"
+
+#: series.php:120
+msgid "Update Series"
+msgstr "連載を更新する"
+
+#: series.php:122
+msgid "New Series Name"
+msgstr "新規連載の名称"
+
+#: series.php:308
+msgid "A simple widget to display post series."
+msgstr "連載を表示するシンプルなウィジェット。"
+
+#: series.php:345 series.php:445 series.php:450
+msgid "Post Series List"
+msgstr "連載一覧"
+
+#: series.php:412
+msgid "Choose post series to display:"
+msgstr "表示する連載を選んでください:"
+
+#: series.php:421
+msgid "Number of posts to show:"
+msgstr "表示投稿数:"
+
+#: series.php:425
+msgid "Special class prefix:"
+msgstr "特殊クラスプレフィクス:"
+
+#: series.php:430
+msgid "Show future"
+msgstr "掲載予定記事を表示するか"
+
+#: series.php:443
+msgid "A simple widget to display all post series in list."
+msgstr "すべての連載を表示するシンプルなウィジェット。"
+
+#: series.php:486
+msgid "Show post counts"
+msgstr "投稿数を表示する"
+
+#: series.php:489
+msgid "Show hierarchy"
+msgstr "階層を表示する"
+
+#: template/taxonomy-series.php:19
+#, php-format
+msgid "Post Series Archives: %s"
+msgstr "Post Series アーカイブ: %s"
+
+#: template/taxonomy-series.php:76
+msgid "Leave a comment"
+msgstr "コメントを書く"
+
+#: template/taxonomy-series.php:76
+msgid "1 Comment"
+msgstr "1 コメント"
+
+#: template/taxonomy-series.php:76
+msgid "% Comments"
+msgstr "% コメント"
+
+#: template/taxonomy-series.php:77
+msgid "Edit"
+msgstr "編集"
+
+#: template/taxonomy-series.php:86
+msgid "Read More"
+msgstr "さらに読む"
+
+#: template/taxonomy-series.php:90
+msgid "Pages:"
+msgstr "ページ:"
+
+#: template/taxonomy-series.php:113
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 以前の記事"
+
+#: template/taxonomy-series.php:114
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "最近の記事 <span class=\"meta-nav\">&rarr;</span>"
+
+#: template/taxonomy-series.php:122
+msgid "Nothing Found"
+msgstr "何もありませんでした"
+
+#: template/taxonomy-series.php:126
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"すみませんがご指定のアーカイブには何もありませんでした。関連記事をお探しの場"
+"合は、検索をお使いください。"
